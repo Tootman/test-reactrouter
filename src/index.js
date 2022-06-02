@@ -12,9 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="build" element={<App />} />
-        <Route path="build/expenses" element={<Expenses />} />
-        <Route path="build/invoices" element={<Invoices />} />
+        <Route path="/build" element={<App />} />
+        <Route path="/build/expenses" element={<Expenses />} />
+        <Route path="/build/invoices" element={<Invoices />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
